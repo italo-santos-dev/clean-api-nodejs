@@ -4,18 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest-config",
-  },
-  "lint-staged": {
-    "*.js": [
-      "standard --fix",
-      "git add"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+    "test": "jest",
   },
   "author": "",
   "license": "ISC",
