@@ -8,11 +8,14 @@
     "test:staged": "jest"
   },
   "standard": {
-    "env": ["jest"]
+    "env": [
+      "jest"
+    ]
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "babel-preset-env": "^1.7.0",
     "husky": "^6.0.0",
     "jest": "^27.0.1",
     "lint-staged": "^11.0.0",
